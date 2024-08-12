@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.file-container,
+.bin-container {
+  margin-bottom: 40px;
+}
+
+.file-item,
+.bin-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+#files {
+  background-color: aqua;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.file-item img,
+.bin-item img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#clearAllBtn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(143, 82, 82, 0.5);
+  background-color: greenyellow;
+}
+
+.modal-content {
+  background-color: #d6d3d3;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #f70808;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
